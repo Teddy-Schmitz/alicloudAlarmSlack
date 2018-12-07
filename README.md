@@ -4,7 +4,7 @@ Send Alicloud alarm webhooks to slack.
 
 ## Usage
 
-`go install github.com/Teddy-Schmitz/alicloudAlarmSlack`
+`go get github.com/Teddy-Schmitz/alicloudAlarmSlack`
 
 Just provide the slack webhook URL as `SLACK_WEBHOOK` and start the server.  Then point your Alicloud alarms to the URL of this service.
 
